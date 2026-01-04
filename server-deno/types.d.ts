@@ -26,7 +26,7 @@ declare global {
         user_code: string;
     }
 
-    type ModelProvider = "openai" | "gemini" | "elevenlabs" | "hume" | "grok";
+    type ModelProvider = "openai" | "gemini" | "elevenlabs" | "hume" | "grok" | "doubao";
 
     type GrokVoice = 
         | "Ara"
@@ -34,6 +34,13 @@ declare global {
         | "Leo"
         | "Rex"
         | "Sal"
+
+    type DoubaoVoice =
+        | "zh_female_shuangkuaisisi_moon_bigtts"
+        | "zh_male_wennuanahu_moon_bigtts"
+        | "zh_female_tianmeixiaoyuan_moon_bigtts"
+        | "zh_male_yangguangqingnian_moon_bigtts"
+        | "zh_female_wenrouxiaoya_moon_bigtts"
 
     type GeminiVoice =
         | "Zephyr"
